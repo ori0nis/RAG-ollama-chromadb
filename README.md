@@ -11,30 +11,33 @@ This project implements a fully local **RAG (Retrieval-Augmented Generation)** s
 
 ## How to Use
 
-1. Create a virtual environment:
+## 1. Create a virtual environment:
 ```bash
 python -m venv venv
 ```
 
-2. Activate the environment:
+## 2. Activate the environment:
 ```bash
 source venv/bin/activate  # Linux / macOS
 venv\Scripts\activate     # Windows
 ```
 
-3. Installl dependencies:
+## 3. Install dependencies:
 ```bash
 pip install -r requirements.txt
 ```
 
-4. Place .txt files inside data/
+## 4. Place .txt files inside data/
+```bash
+data/example.txt
+```
 
-5. Index the documents:
+## 5. Index the documents:
 ```bash
 python src/ingest.py
 ```
 
-6. Run the web app:
+## 6. Run the web app:
 ```bash
 streamlit run src/app.py
 ```
