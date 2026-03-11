@@ -1,5 +1,5 @@
 # 1. Project Objective
-Build a system that answers questions about proprietary documents using a local RAG.
+Build a fully local RAG system that can answer a user's questions, powered by Llama3 LLM and supported by proprietary documents.
 
 # 2. Technology Stack and Justification
 - **Ollama** → local LLM + embeddings  
