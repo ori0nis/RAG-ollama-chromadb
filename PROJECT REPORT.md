@@ -11,7 +11,7 @@ Build a fully local RAG system that can answer a user's questions, powered by Ll
 - **Environment preparation:** `venv` virtual environment, installation of dependencies, local download of Ollama, download of models  
 - **Indexing:** preparation of a simple `.txt` document, document reading, chunking, storing embeddings in ChromaDB  
 - **Query pipeline:** question embeddings → fragment search → prompt to the LLM → generated response  
-- **Interface:** creation of a Streamlit interface to test the model and confirm that responses and the fragments used are provided  
+- **Interface:** creation of a Streamlit interface to test the model and confirm that responses and fragments used are provided  
 
 # 4. Problems Encountered and Solutions Applied
 The implementation of ChromaDB and the document indexing worked from the beginning. However, `query.py` did cause problems due to version issues.
